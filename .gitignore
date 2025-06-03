@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Python virtual environments
+env/
+venv/
+ENV/
+env.bak/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OS logs
+*.log
+
+# Colab config/cache (por si usas local runtimes)
+.colab/
+
+# Pytest cache
+.pytest_cache/
+
+# Output data (ajusta si quieres mantener algunos CSVs u outputs)
+*.csv
+*.tsv
+*.parquet
+*.xls
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# Credential files (nunca subas estos)
+*.env
+*.key
+*.pem
+*.p12
+token.json
+credentials.json
+secrets.json
+
+# Node.js (por si haces algo de backend luego)
+node_modules/
+
+# Database or dump files
+*.sqlite
+*.db
+*.sql
+*.dump
