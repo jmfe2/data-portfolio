@@ -6,54 +6,34 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# VS Code settings
-.vscode/
-*.code-workspace
-
-# Python virtual environments
-env/
+# Virtual environments
 venv/
-ENV/
-env.bak/
+.env/
+.envrc
 .venv/
 
-# System files
+# Python environment files
+Pipfile.lock
+poetry.lock
+
+# VS Code settings
+.vscode/
+
+# Data files (optional, unless you want to version-control them)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# OS logs
+# Colab notebooks autosaves
+*.ipynb (autosaved).ipynb
+
+# Logs and temporary files
 *.log
-
-# Colab config/cache (por si usas local runtimes)
-.colab/
-
-# Pytest cache
-.pytest_cache/
-
-# Output data (ajusta si quieres mantener algunos CSVs u outputs)
-*.csv
-*.tsv
-*.parquet
-*.xls
-*.xlsx
-*.zip
-*.tar
-*.gz
-
-# Credential files (nunca subas estos)
-*.env
-*.key
-*.pem
-*.p12
-token.json
-credentials.json
-secrets.json
-
-# Node.js (por si haces algo de backend luego)
-node_modules/
-
-# Database or dump files
-*.sqlite
-*.db
-*.sql
-*.dump
+*.tmp
+*.bak
