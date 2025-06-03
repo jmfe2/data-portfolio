@@ -5,7 +5,7 @@ Este repositorio es mi portafolio de aprendizaje, práctica y proyectos reales.
 
 ---
 
-## 🚀 Objetivo del repositorio
+## Objetivo del repositorio
 
 Concentrar ejercicios, proyectos y recursos desarrollados durante mi práctica para roles como:
 
@@ -15,7 +15,7 @@ Concentrar ejercicios, proyectos y recursos desarrollados durante mi práctica p
 
 ---
 
-## 🧠 Tecnologías en práctica
+## Tecnologías en práctica
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 - SQL y PostgreSQL
