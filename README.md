@@ -1,37 +1,39 @@
-# 📊 Data Portfolio — Juan Martin Flores
+# 📊 Data Portfolio — Juan Martín Flores
 
-¡Hola! Soy Juan Martín, profesionista en práctica del mundo del análisis de datos, inteligencia artificial aplicada a negocios, y desarrollo backend. 
-Este repositorio es mi portafolio de aprendizaje, práctica y proyectos reales.
+Hello! I'm Juan Martín, an aspiring data professional passionate about data analysis, applied AI in business, and backend development.  
+This repository serves as my learning log, practice ground, and portfolio of real-world projects.
 
 ---
 
-## Objetivo del repositorio
+## 🎯 Repository Purpose
 
-Concentrar ejercicios, proyectos y recursos desarrollados durante mi práctica para roles como:
+To consolidate exercises, projects, and resources as I develop skills for roles such as:
 
 - **Data Analyst**
 - **AI Business Analyst**
-- Futuro **Data Engineer** y/o **Backend + AI Developer**
+- Future **Data Engineer** and/or **Backend + AI Developer**
 
 ---
 
-## Tecnologías en práctica
+## 🛠️ Tech Stack & Tools
 
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- SQL y PostgreSQL
-- Git y GitHub
+- Python 3.x (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+- SQL & PostgreSQL
+- Git & GitHub
 - Power BI
 - Google Colab / Jupyter Notebooks
 - VS Code
 
 ---
 
-## 📁 Estructura
+## 📁 Folder Structure
 
 ```bash
 data-portfolio/
-├── semana_1/           # Análisis exploratorio (Titanic, etc.)
-├── datasets/           # Conjuntos de datos usados
-├── utils/              # Funciones auxiliares (Python)
-├── proyectos/          # Proyectos completos y presentaciones
-└── README.md           # Este archivo
+├── notebooks/                         # Jupyter or Colab notebooks
+│   └── 01_exploracion_inicial.ipynb   # Initial data exploration
+├── scripts/                           # Python scripts for automation, cleaning, etc.
+├── data/                              # Raw or processed datasets (do NOT push sensitive data)
+├── outputs/                           # Charts, reports, and exported visuals
+├── .gitignore                         # Files and folders to exclude from version control
+└── README.md                          # This file
