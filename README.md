@@ -35,5 +35,4 @@ data-portfolio/
 ├── scripts/                           # Python scripts for automation, cleaning, etc.
 ├── data/                              # Raw or processed datasets (do NOT push sensitive data)
 ├── outputs/                           # Charts, reports, and exported visuals
-├── .gitignore                         # Files and folders to exclude from version control
 └── README.md                          # This file
