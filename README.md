@@ -28,11 +28,16 @@ To consolidate exercises, projects, and resources as I develop skills for roles 
 
 ## 📁 Folder Structure
 
+
 ```bash
 data-portfolio/
+├── data/                              # Datasets (.csv, .xlsx, etc.)
+│   └── students-performance.csv       
+├── figures/                           # Charts, plots, images
+│   └── scores_histogram.png
 ├── notebooks/                         # Jupyter or Colab notebooks
-│   └── 01_exploracion_inicial.ipynb   # Initial data exploration
-├── scripts/                           # Python scripts for automation, cleaning, etc.
-├── data/                              # Raw or processed datasets (do NOT push sensitive data)
-├── outputs/                           # Charts, reports, and exported visuals
-└── README.md                          # This file
+│   └── 01_students_eda.ipynb
+├── scripts/                           # Python scripts for cleaning, utils, etc.
+├── requirements.txt                   # Python package dependencies
+├── .gitignore                         # Ignored files/folders for Git
+└── README.md                          # Project documentation
