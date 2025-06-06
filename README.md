@@ -31,13 +31,20 @@ To consolidate exercises, projects, and resources as I develop skills for roles 
 
 ```bash
 data-portfolio/
-├── data/                              # Datasets (.csv, .xlsx, etc.)
-│   └── students-performance.csv       
-├── figures/                           # Charts, plots, images
-│   └── scores_histogram.png
-├── notebooks/                         # Jupyter or Colab notebooks
+├── data
+│   └── 01_students
+│       └── studentsperformance.csv
+├── figures
+│   └── 01_students
+│       ├── multi_score_boxplots_gender.png
+│       ├── multi_score_boxplots_lunch.png
+│       ├── multi_score_boxplots_parental level of education.png
+│       ├── multi_score_boxplots_race_ethnicity.png
+│       ├── multi_score_boxplots_test_preparation_course.png
+│       └── scores_histogram_enhanced.png
+├── notebooks
 │   └── 01_students_eda.ipynb
-├── scripts/                           # Python scripts for cleaning, utils, etc.
-├── requirements.txt                   # Python package dependencies
-├── .gitignore                         # Ignored files/folders for Git
-└── README.md                          # Project documentation
+├── README.md
+├── requierments.txt
+└── scripts
+    └── cleaning.py                       # Project documentation
