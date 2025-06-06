@@ -19,13 +19,6 @@ poetry.lock
 # VS Code settings
 .vscode/
 
-# Data files (optional, unless you want to version-control them)
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.db
-
 # OS-specific files
 .DS_Store
 Thumbs.db
