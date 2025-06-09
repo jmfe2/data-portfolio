@@ -1,9 +1,9 @@
-### 📊 Project 01: Student Performance Exploration
+## 📊 Project 01: Student Performance Exploration
 
-### Description
+## Description
 This analysis explores the publicly available Students Performance dataset. The objective was to identify factors associated with academic performance in math, reading, and writing.
 
-### 📌 Key Findings
+## 📌 Key Findings
 
 Gender: Female students score higher in reading and writing, while male students perform slightly better in math.
 
@@ -15,7 +15,7 @@ Test preparation course: Completing a prep course correlates with higher scores.
 
 Race/ethnicity group: Subtle differences are observed; Groups A and B tend to have slightly lower average scores.
 
-### 💡 Recommendations (Business Insights) 
+## 💡 Recommendations (Business Insights) 
 
 Educational strategies: Implement academic reinforcement programs targeting underperforming groups.
 
@@ -25,7 +25,7 @@ Parental engagement: Launch initiatives to improve the home learning environment
 
 Prep course promotion: Encourage student enrollment in test preparation courses to enhance performance.
 
-### 🧪 Technologies Used
+## 🧪 Technologies Used
 
 Python 3.14
 
@@ -37,7 +37,7 @@ Sys / Os
 
 Jupyter Notebooks
 
-### ▶️ How to Run This Analysis
+## ▶️ How to Run This Analysis
 
 **Clone the repository:**
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/Students/01_students_eda.ipynb
 ```
 
-### 📫 Contact
+## 📫 Contact
 
 Learn more about my work at:
 
@@ -77,6 +77,6 @@ Learn more about my work at:
 
 💼 LinkedIn: linkedin.com/in/juanmartinflores
 
-⚖️ License
+## ⚖️ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
