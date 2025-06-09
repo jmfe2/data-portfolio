@@ -45,6 +45,9 @@ data-portfolio/
 ├── notebooks
 │   └── 01_students_eda.ipynb
 ├── README.md
+├── LICENSE
 ├── requierments.txt
 └── scripts
-    └── cleaning.py                     # Project documentation
+    └── cleaning.py                     
+    
+    # Project documentation

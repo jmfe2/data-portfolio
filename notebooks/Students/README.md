@@ -78,5 +78,4 @@ Learn more about my work at:
 💼 LinkedIn: linkedin.com/in/juanmartinflores
 
 ## ⚖️ License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+This project is licensed under the  [MIT License](LICENSE). See the LICENSE file for details.
