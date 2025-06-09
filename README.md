@@ -38,7 +38,7 @@ data-portfolio/
 │   └── 01_students
 │       ├── multi_score_boxplots_gender.png
 │       ├── multi_score_boxplots_lunch.png
-│       ├── multi_score_boxplots_parental level of education.png
+│       ├── multi_score_boxplots_parental.png
 │       ├── multi_score_boxplots_race_ethnicity.png
 │       ├── multi_score_boxplots_test_preparation_course.png
 │       └── scores_histogram_enhanced.png
@@ -47,4 +47,4 @@ data-portfolio/
 ├── README.md
 ├── requierments.txt
 └── scripts
-    └── cleaning.py                       # Project documentation
+    └── cleaning.py                     # Project documentation
