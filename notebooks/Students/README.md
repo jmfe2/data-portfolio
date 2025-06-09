@@ -33,28 +33,37 @@ Pandas
 
 Matplotlib / Seaborn
 
+Sys / Os
+
 Jupyter Notebooks
 
 ### ▶️ How to Run This Analysis
 
 **Clone the repository:**
 
+```bash
 git clone https://github.com/jmfe2/data-portfolio.git
 cd data-portfolio
+```
 
 **Create a virtual environment (optional but recommended):**
 
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
+```
 
 **Install the dependencies:**
 
+```bash
 pip install -r requirements.txt
+```
 
 **Launch the notebook:**
 
+```bash
 jupyter notebook notebooks/Students/01_students_eda.ipynb
-
+```
 
 ### 📫 Contact
 
