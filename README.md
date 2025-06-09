@@ -42,12 +42,14 @@ data-portfolio/
 │       ├── multi_score_boxplots_race_ethnicity.png
 │       ├── multi_score_boxplots_test_preparation_course.png
 │       └── scores_histogram_enhanced.png
-├── notebooks
-│   └── 01_students_eda.ipynb
-├── README.md
 ├── LICENSE
+├── notebooks
+│   └── Students
+│       ├── 01_students_eda.ipynb
+│       └── README.md
+├── README.md
 ├── requierments.txt
 └── scripts
-    └── cleaning.py                     
+    └── cleaning.py                 
     
     # Project documentation
