@@ -5,7 +5,6 @@ def clean_column_names(df: pd.DataFrame) -> pd.DataFrame:
     """
     Standardizes column names by:
     - Lowercasing all column names
-    - Removing non-alphanumeric characters (except underscores)
 
     Parameters:
     - df: pd.DataFrame — The DataFrame with messy or inconsistent column names.
