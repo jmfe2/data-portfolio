@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
 *.py[cod]
 *$py.class
 
@@ -25,7 +26,7 @@ Thumbs.db
 
 # Colab notebooks autosaves
 *.ipynb (autosaved).ipynb
-
+.ipynb_checkpoints/
 # Logs and temporary files
 *.log
 *.tmp
