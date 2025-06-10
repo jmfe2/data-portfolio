@@ -18,9 +18,7 @@ def clean_column_names(df: pd.DataFrame) -> pd.DataFrame:
     >>> clean_column_names(df).columns.tolist()
     ['gender', 'math score']
     """
-    df.columns = (
-        df.columns.str.strip().str.lower().str.replace("[^a-z0-9_]", "", regex=True)
-    )
+    df.columns = df.columns.str.lower()
     return df
 
 
