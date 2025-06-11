@@ -12,6 +12,7 @@ venv/
 .env/
 .envrc
 .venv/
+.env
 
 # Python environment files
 Pipfile.lock
