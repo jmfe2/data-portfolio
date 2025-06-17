@@ -5,6 +5,15 @@
 This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using a real-world dataset of supermarket transactions. The goal is to extract sales data from a CSV file, transform and clean it using Python, and load it into a PostgreSQL database. We then validate the inserted data and prepare it for visualization in Power BI or other BI tools.
 
 ---
+## 🚀 Highlights
+
+- End-to-end ETL pipeline in Python
+- Data validation with SQLAlchemy
+- Clean export to CSV
+- Interactive dashboard built with Power BI
+- Version control and modular project structure
+
+---
 
 ## 🧰 Tech Stack
 
@@ -22,11 +31,11 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline usi
 
 
 ```bash
-02_supermarket_sales/
-│
-├── 02_supermarket_postgresql.ipynb # ETL process: load data into PostgreSQL
-├── 03_validate_and_git.ipynb # Data validation with SQLAlchemy + Git workflow
-├── README.md # Project description (this file)
+data-portfolio/
+├── data/02_supermarket_sales/ # Original and cleaned CSVs
+├── scripts/02_supermarket/ # ETL and cleaning scripts
+├── notebooks/02_supermarket_sales/ # Analysis notebooks (ETL, validation)
+├── figures/02_supermarket/ # Power BI visuals and .pbix file
 ```
 
 Other folders in root project:
@@ -34,6 +43,10 @@ Other folders in root project:
 /data/02_supermarket_sales/ # Contains the original CSV file
 /scripts/02_supermarket/ # Custom Python cleaning functions (e.g., cleaning.py)
 /figures/02_supermarket/ # Visual outputs from data analysis
+
+🖼 Sample dashboard preview:
+
+![Power BI Dashboard Preview](../../figures/02_supermarket/powerbi_overview.png)
 
 
 ---
@@ -52,7 +65,23 @@ The dataset used is [`supermarket_sales.csv`](https://www.kaggle.com/datasets/au
 📦 Rows: 1,000  
 📊 Columns: 17
 
+🧼 After ETL, the cleaned version is exported to:
+
+`/data/02_supermarket_sales/cleaned_data/supermarket_cleaned.csv`
+
 ---
+
+## 📊 Power BI Dashboard
+
+The Power BI report built for this project includes insights such as:
+
+- Total sales by city
+- Revenue per product line
+- Average transaction by gender
+- Sales by payment method and day
+
+🔗 The `.pbix` file is available in [`/figures/02_supermarket/powerbi_supermarket.pbix`](../figures/02_supermarket/powerbi_supermarket.pbix)
+
 
 ## ⚙️ How to Run
 
@@ -71,6 +100,8 @@ pip install -r requirements.txt
 
 3. Create a .env file in the root directory with the following keys 
 
+*Make sure your `.env` file is not tracked by Git. A `.env.example` is suggested for collaborators.*
+
 ```bash
 DB_USER=your_username
 DB_PASS=your_password
@@ -79,10 +110,10 @@ DB_PORT=5432
 DB_NAME=your_database
 ```
 
-4. Run notebooks in order
+4. Run notebooks in order:
 
-02_supermarket_postgresql.ipynb – loads CSV into PostgreSQL
-03_validate_and_git.ipynb – runs validation queries and tracks changes with Git
+- `02_supermarket_postgresql.ipynb` – Loads CSV into PostgreSQL
+- `03_validate_and_git.ipynb` – Runs validation queries and tracks changes with Git
 
 
 
