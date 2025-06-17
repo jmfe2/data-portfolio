@@ -56,26 +56,31 @@ The dataset used is [`supermarket_sales.csv`](https://www.kaggle.com/datasets/au
 
 1. Clone the repo and set up a Python virtual environment (optional):
 
-   ```bash
-   git clone https://github.com/jmfe2/data-portfolio.git
-   cd data-portfolio
-
+```bash
+git clone https://github.com/jmfe2/data-portfolio.git
+cd data-portfolio
+```
+   
 2. Install libraries
-  ```bash
-  pip install -r requirements.txt
 
-3. Create a .env file in the root directory with the following keys
+```bash
+pip install -r requirements.txt
+```
 
- ```bash
- DB_USER=your_username
- DB_PASS=your_password
- DB_HOST=localhost
- DB_PORT=5432
- DB_NAME=your_database
+3. Create a .env file in the root directory with the following keys 
+
+```bash
+DB_USER=your_username
+DB_PASS=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database
+```
 
 4. Run notebooks in order
- 02_supermarket_postgresql.ipynb – loads CSV into PostgreSQL
- 03_validate_and_git.ipynb – runs validation queries and tracks changes with Git
+
+02_supermarket_postgresql.ipynb – loads CSV into PostgreSQL
+03_validate_and_git.ipynb – runs validation queries and tracks changes with Git
 
 
 
