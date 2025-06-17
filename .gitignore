@@ -13,6 +13,7 @@ venv/
 .envrc
 .venv/
 .env
+*.env
 
 # Python environment files
 Pipfile.lock
@@ -32,6 +33,7 @@ Thumbs.db
 # Logs and temporary files
 *.tmp
 *.bak
+etl_log.txt
 
 # Gitkeep files
 .gitkeep
