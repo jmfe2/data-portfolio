@@ -20,12 +20,14 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline usi
 
 ## 📁 Project Structure
 
+
+```bash
 02_supermarket_sales/
 │
 ├── 02_supermarket_postgresql.ipynb # ETL process: load data into PostgreSQL
 ├── 03_validate_and_git.ipynb # Data validation with SQLAlchemy + Git workflow
 ├── README.md # Project description (this file)
-
+```
 
 Other folders in root project:
 
