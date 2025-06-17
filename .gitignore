@@ -28,8 +28,12 @@ Thumbs.db
 # Colab notebooks autosaves
 *.ipynb (autosaved).ipynb
 .ipynb_checkpoints/
+
 # Logs and temporary files
 *.log
 *.tmp
 *.bak
+
+# Gitkeep files
 .gitkeep
+
