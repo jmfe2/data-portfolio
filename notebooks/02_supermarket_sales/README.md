@@ -13,6 +13,14 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline usi
 - Interactive dashboard built with Power BI
 - Version control and modular project structure
 
+--- 
+
+### 🔍 Insights:
+
+- Sales are evenly distributed among the three cities, with no clear leader.
+- Women generate a slightly higher average ticket than men.
+- The product line with the most units sold is Electronic Accessories.
+- Most sales occur between the 10th and 20th of the month.
 ---
 
 ## 🧰 Tech Stack
@@ -46,7 +54,7 @@ Other folders in root project:
 
 🖼 Sample dashboard preview:
 
-![Power BI Dashboard Preview](../../figures/02_supermarket/powerbi_overview.png)
+![Power BI Dashboard Preview](../../figures/02_supermarket/porwer_bi_dashboard_all.jpeg)
 
 
 ---
@@ -82,6 +90,18 @@ The Power BI report built for this project includes insights such as:
 
 🔗 The `.pbix` file is available in [`/figures/02_supermarket/powerbi_supermarket.pbix`](../figures/02_supermarket/powerbi_supermarket.pbix)
 
+## 📸 Power BI Visual Gallery
+
+These screenshots provide a quick glance at the insights uncovered:
+
+- **Sales Overview Dashboard**
+  ![Sales Overview](../../figures/02_supermarket/porwer_bi_dashboard_all.jpeg)
+- **Total Sales – Yangon**
+  ![Yangon Sales](../../figures/02_supermarket/power_b_yangon_city.jpeg)
+- **Total Sales – Mandalay**
+  ![Mandalay Sales](../../figures/02_supermarket/power_bi_mandalay_city.jpeg)
+- **Total Sales – Naypyitaw**
+  ![Naypyitaw Sales](../../figures/02_supermarket/power_bi_naypytaw_city.jpeg)
 
 ## ⚙️ How to Run
 
@@ -115,7 +135,14 @@ DB_NAME=your_database
 - `02_supermarket_postgresql.ipynb` – Loads CSV into PostgreSQL
 - `03_validate_and_git.ipynb` – Runs validation queries and tracks changes with Git
 
+---
 
+#### 4. Optional enhancements
 
+- Rename `requierments.txt` to `requirements.txt` (correct typo).
+- Mention log file location:
+
+```md
+ETL logs are written to: `/logs/etl_supermarket.log`
 
  

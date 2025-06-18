@@ -1,77 +1,91 @@
-# 📊 Data Portfolio — Juan Martín Flores
+# 📊 Data Analytics Portfolio – Juan M. Flores Espinoza
 
-Hello! I'm Juan Martín, an aspiring data professional passionate about data analysis, applied AI in business, and backend development.  
-This repository serves as my learning log, practice ground, and portfolio of real-world projects.
-
----
-
-## 🎯 Repository Purpose
-
-To consolidate exercises, projects, and resources as I develop skills for roles such as:
-
-- **Data Analyst**
-- **AI Business Analyst**
-- Future **Data Engineer** and/or **Backend + AI Developer**
+Welcome to my personal data analytics portfolio. This repository showcases end-to-end data projects focused on real-world scenarios and business insights. Each folder represents a self-contained case study with data cleaning, transformation, storage, and visualization workflows.
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🧠 About Me
 
-- Python 3.x (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- SQL & PostgreSQL
-- Git & GitHub
-- Power BI
-- Google Colab / Jupyter Notebooks
-- VS Code
+I'm a data analyst in transition to data engineering, with a background in Financial Administration and a Master's degree in Big Data & Business Analytics. I focus on practical applications of data science, particularly in Python, SQL, and BI tools.
 
 ---
 
-## 📁 Folder Structure
+## 📂 Project Index
 
+| Project | Description | Tools & Topics |
+|--------|-------------|----------------|
+| [`Supermarket Sales`](./notebooks/02_supermarket_sales) | ETL pipeline with PostgreSQL, data validation, and Power BI dashboard | Python, pandas, SQLAlchemy, PostgreSQL, Power BI |
+| [`Students Performance`](./notebooks/01_students) | Exploratory data analysis of student scores and demographics | Python, seaborn, matplotlib, EDA |
+
+*More projects coming soon (financial datasets, APIs, predictive models).*
+
+---
+
+## 🔧 Tech Stack Across Projects
+
+- Python 3.11
+- pandas, numpy, matplotlib, seaborn
+- PostgreSQL (local setup)
+- SQLAlchemy, dotenv
+- Power BI (via UTM on Mac)
+- Git & GitHub for version control
+
+---
+
+## 📌 Folder Structure
 
 ```bash
-data-portfolio/.
-├── data
-│   ├── 01_students
-│   │   └── studentsperformance.csv
-│   └── 02_supermarket_sales
-│       └── supermarket_sales.csv
-├── figures
-│   ├── 01_students
-│   │   ├── multi_score_boxplots_gender.png
-│   │   ├── multi_score_boxplots_lunch.png
-│   │   ├── multi_score_boxplots_parental.png
-│   │   ├── multi_score_boxplots_race_ethnicity.png
-│   │   ├── multi_score_boxplots_test_preparation_course.png
-│   │   └── scores_histogram_enhanced.png
-│   └── 02_supermarket
-│       ├── avg_spent_gender.png
-│       ├── quantity_by_product.png
-│       ├── revenue_by_product.png
-│       ├── total_sales_by_city.png
-│       ├── total_sales_by_date.png
-│       └── total_sales_by_hour.png
-├── LICENSE
-├── logs
-│   └── etl_supermarket.log
-├── notebooks
-│   ├── 01_students
-│   │   ├── 01_students_eda.ipynb
-│   │   └── README.md
-│   └── 02_supermarket_sales
-│       ├── 02_supermarket_postgresql.ipynb
-│       ├── 03_validate_and_git.ipynb
-│       └── README.md
-├── README.md
-├── requierments.txt
-└── scripts
-    └── 02_supermarket
-        ├── __init__.py
-        ├── __pycache__
-        │   ├── __init__.cpython-313.pyc
-        │   ├── cleaning.cpython-313.pyc
-        │   └── etl_pipeline.cpython-313.pyc
-        ├── cleaning.py
-        └── etl_pipeline.py
+data-portfolio/
+├── notebooks/               # Jupyter notebooks for each project
+├── scripts/                 # Custom Python scripts (ETL, cleaning, etc.)
+├── data/                    # Raw and cleaned CSV files
+├── figures/                 # Power BI images and dashboards
+├── logs/                    # ETL and data validation logs
+├── requirements.txt         # Python dependencies
+└── README.md                # This file
 
-    # Project documentation
+--- 
+
+## ⚙️ How to Run
+
+1. Clone the repo:
+
+```bash
+
+git clone https://github.com/jmfe2/data-portfolio.git
+cd data-portfolio
+
+```
+   
+2. Set up the enviroment:
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+3. Create a .env file with your database credentials:
+
+```bash
+DB_USER=your_username
+DB_PASS=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database
+```
+
+4. Open the project folders and run notebooks in order.
+
+---
+
+📫 Contact
+
+📸 Instagram: @jmfloreslab
+💼 LinkedIn: linkedin.com/in/juanmartinflores
+
+---
+
+⚖️ License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
