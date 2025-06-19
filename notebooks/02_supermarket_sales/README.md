@@ -17,10 +17,11 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline usi
 
 ### 🔍 Insights:
 
-- Sales are evenly distributed among the three cities, with no clear leader.
-- Women generate a slightly higher average ticket than men.
-- The product line with the most units sold is Electronic Accessories.
-- Most sales occur between the 10th and 20th of the month.
+- Sales are relatively evenly distributed among the three cities: Yangon (33.8%), Mandalay (33.1%), and Naypyitaw (33.1%), with no dominant location.
+- Women generate a 5.3% higher average ticket than men (Female: \$322.99 vs. Male: \$306.63).
+- The most sold product line by quantity is **Electronic Accessories**, accounting for 19.2% of all units sold.
+- 61% of all sales occur between the 10th and 20th of each month, indicating a mid-month purchase pattern.
+
 ---
 
 ## 🧰 Tech Stack
