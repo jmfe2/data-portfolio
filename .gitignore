@@ -36,5 +36,5 @@ Thumbs.db
 etl_log.txt
 
 # Gitkeep files
-.gitkeep
+#.gitkeep
 
