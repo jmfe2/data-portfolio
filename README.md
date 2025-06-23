@@ -44,6 +44,7 @@ data-portfolio/
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
 
+```
 --- 
 
 ## ⚙️ How to Run
@@ -82,6 +83,7 @@ DB_NAME=your_database
 📫 Contact
 
 📸 Instagram: @jmfloreslab
+
 💼 LinkedIn: linkedin.com/in/juanmartinflores
 
 ---

@@ -51,12 +51,12 @@ Other folders in root project:
 
 /data/02_supermarket_sales/ # Contains the original CSV file
 /scripts/02_supermarket/ # Custom Python cleaning functions (e.g., cleaning.py)
-/figures/02_supermarket/ # Visual outputs from data analysis
+/figures/02_supermarket/ # Visual outputs from data analysis and Power BI
 
 🖼 Sample dashboard preview:
 
 ![Power BI Dashboard Preview](../../figures/02_supermarket/porwer_bi_dashboard_all.jpeg)
-
+![Power BI Dashboard Executive Summary](../../figures/02_supermarket/executive_summary_supermarket.pdf)
 
 ---
 
@@ -140,10 +140,8 @@ DB_NAME=your_database
 
 #### 4. Optional enhancements
 
-- Rename `requierments.txt` to `requirements.txt` (correct typo).
 - Mention log file location:
 
 ```md
 ETL logs are written to: `/logs/etl_supermarket.log`
-
  
