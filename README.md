@@ -84,7 +84,7 @@ DB_NAME=your_database
 
 📸 Instagram: @jmfloreslab
 
-💼 LinkedIn: linkedin.com/in/juanmartinflores
+💼 LinkedIn: [linkedin.com/in/jmfe](https://www.linkedin.com/in/jmfe/)
 
 ---
 

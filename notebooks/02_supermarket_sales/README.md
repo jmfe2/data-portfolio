@@ -144,4 +144,13 @@ DB_NAME=your_database
 
 ```md
 ETL logs are written to: `/logs/etl_supermarket.log`
- 
+
+## Contact
+
+📸 Instagram: @jmfloreslab
+💼 LinkedIn: linkedin.com/in/jmfe
+
+---
+
+## ⚖️ License
+This project is licensed under the  [MIT License](../../LICENSE). See the LICENSE file for details.

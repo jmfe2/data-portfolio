@@ -67,7 +67,7 @@ Please refer to the root [README.md](../../README.md#how-to-run) for environment
 ## Contact
 
 📸 Instagram: @jmfloreslab
-💼 LinkedIn: linkedin.com/in/juanmartinflores
+💼 LinkedIn: linkedin.com/in/jmfe
 
 ---
 
