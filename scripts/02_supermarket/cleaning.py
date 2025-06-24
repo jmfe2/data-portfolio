@@ -9,4 +9,9 @@ def clean_column_names(df: pd.DataFrame) -> pd.DataFrame:
         .str.replace(" ", "_")
         .str.replace(r"[^\w\s]", "", regex=True)
     )
+    # Convert date and time columns to appropriate formats
+
+    df["date"] = pd.to_datetime(df["date"])
+    df["time"] = pd.to_datetime(df["time"], format="%H:%M").dt.time
+
     return df

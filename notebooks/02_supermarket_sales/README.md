@@ -5,22 +5,23 @@
 This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using a real-world dataset of supermarket transactions. The goal is to extract sales data from a CSV file, transform and clean it using Python, and load it into a PostgreSQL database. We then validate the inserted data and prepare it for visualization in Power BI or other BI tools.
 
 ---
+
 ## 🚀 Highlights
 
-- End-to-end ETL pipeline in Python
-- Data validation with SQLAlchemy
-- Clean export to CSV
-- Interactive dashboard built with Power BI
-- Version control and modular project structure
+- End-to-end ETL pipeline in Python  
+- Data validation with SQLAlchemy  
+- Clean export to CSV  
+- Interactive dashboard built with Power BI  
+- Version control and modular project structure  
 
---- 
+---
 
-### 🔍 Insights:
+### 🔍 Insights
 
-- Sales are relatively evenly distributed among the three cities: Yangon (33.8%), Mandalay (33.1%), and Naypyitaw (33.1%), with no dominant location.
-- Women generate a 5.3% higher average ticket than men (Female: \$322.99 vs. Male: \$306.63).
-- The most sold product line by quantity is **Electronic Accessories**, accounting for 19.2% of all units sold.
-- 61% of all sales occur between the 10th and 20th of each month, indicating a mid-month purchase pattern.
+- Sales are relatively evenly distributed among the three cities: Yangon (33.8%), Mandalay (33.1%), and Naypyitaw (33.1%), with no dominant location.  
+- Women generate a 5.3% higher average ticket than men (Female: \$322.99 vs. Male: \$306.63).  
+- The most sold product line by quantity is **Electronic Accessories**, accounting for 19.2% of all units sold.  
+- 61% of all sales occur between the 10th and 20th of each month, indicating a mid-month purchase pattern.  
 
 ---
 
@@ -31,20 +32,21 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline usi
 - **pandas** – data manipulation
 - **SQLAlchemy** – database connection
 - **dotenv** – environment variable management
-- **Power BI** – for dashboards (planned in next stage)
+- **Power BI** – for dashboards
 - **Git + GitHub** – version control
 
 ---
 
 ## 📁 Project Structure
 
-
 ```bash
 data-portfolio/
-├── data/02_supermarket_sales/ # Original and cleaned CSVs
-├── scripts/02_supermarket/ # ETL and cleaning scripts
-├── notebooks/02_supermarket_sales/ # Analysis notebooks (ETL, validation)
-├── figures/02_supermarket/ # Power BI visuals and .pbix file
+├── data/02_supermarket_sales/       # Original and cleaned CSVs
+├── scripts/02_supermarket/          # ETL and cleaning scripts
+├── notebooks/02_supermarket_sales/  # Analysis notebooks (ETL, validation)
+├── figures/02_supermarket/          # Power BI visuals and .pbix file
+├── run_etl_supermarket.sh           # Executable Bash script to run the pipeline
+
 ```
 
 Other folders in root project:
@@ -55,8 +57,8 @@ Other folders in root project:
 
 🖼 Sample dashboard preview:
 
-![Power BI Dashboard Preview](../../figures/02_supermarket/porwer_bi_dashboard_all.jpeg)
-![Power BI Dashboard Executive Summary](../../figures/02_supermarket/executive_summary_supermarket.pdf)
+![Power BI Dashboard](../../figures/02_supermarket/powerbi_supermarket.pbix)
+![Power BI Dashboard Executive Summary](../../figures/02_supermarket/Executive_Summary_Powerbi.pdf)
 
 ---
 
@@ -131,10 +133,37 @@ DB_PORT=5432
 DB_NAME=your_database
 ```
 
-4. Run notebooks in order:
+## ⚙️ How to Run
 
-- `02_supermarket_postgresql.ipynb` – Loads CSV into PostgreSQL
-- `03_validate_and_git.ipynb` – Runs validation queries and tracks changes with Git
+After installing the requirements and setting up your `.env` file, you have two ways to run the ETL pipeline:
+
+---
+
+### 🧩 Option A – Manual via Python
+  
+  From the root of the repository, run:
+  ```bash
+  python -m scripts.02_supermarket.etl_pipeline
+  ```
+  Or open the notebooks:
+  - 02_supermarket_postgresql.ipynb – Loads CSV into PostgreSQL
+  - 03_validate_and_git.ipynb – Runs validation queries and tracks changes with Git 
+
+### ⚙️ Option B – Run via Bash Script (macOS/Linux)
+
+  1. Make the script executable (only once):
+  ```bash
+  chmod +x run_etl_supermarket.sh
+  ```
+  2. Then run the ETL pipeline:
+  ```bash
+  ./run_etl_supermarket.sh
+  ```
+  This script will:
+  - Activate the virtual environment (.venv)
+  - Load environment variables from .env
+  - Run the full ETL process and log progress to /logs/etl_supermarket.log
+  📌 Note: Make sure you're in the root directory (/data-portfolio) when running the script.
 
 ---
 
